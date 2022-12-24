@@ -39,6 +39,15 @@ if (response == 1):
  # print (*passenger_name,sep='\n')
   print ("\n".join(passenger_name))
 
+if (response == 2):
+    num_survived = 0
+    for record in records:
+        survival_status = record[1]
+
+        if (survival_status == "1"):
+            num_survived += 1
+    print(f"{num_survived} passengers survived")
+
 
 
 
