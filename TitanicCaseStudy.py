@@ -27,3 +27,18 @@ print("[3] Display the number of passengers per gender")
 print("[4] Display the number of passengers per age group")
 response = int(input())
 print(f"You have selected option: {response} ")
+
+if (response == 1):
+  print("The names of the passengers are...")
+  passenger_name = []
+
+  for record in records:
+   # print(record[3])
+    passenger_name.append(record[3])
+
+ # print (*passenger_name,sep='\n')
+  print ("\n".join(passenger_name))
+
+
+
+
