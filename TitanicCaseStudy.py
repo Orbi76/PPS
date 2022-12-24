@@ -50,4 +50,14 @@ if (response == 2):
 
 
 
+if (response == 3):
+    females = 0
+    males = 0
+    for record in records:
+        gender = record[4]
+        if(gender == "male"):
+            males += 1
+        if(gender == "female"):
+            females +=1
+    print(f"females: {females}, males: {males}")
 
