@@ -13,14 +13,9 @@ reader = csv.reader(f)
 header = []
 header = next(reader)
 
-
 for row in reader:
   records.append(row)
 
 f.close()
 print(" Done!")
-print (header)
-a = len(records)
-#print(a)
-#a = str a
-print(f"Successfully loaded {a} records.")
+print(f"Successfully loaded {len(records)} records.")
