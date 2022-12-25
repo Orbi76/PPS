@@ -61,3 +61,22 @@ if (response == 3):
             females +=1
     print(f"females: {females}, males: {males}")
 
+if (response == 4):
+    children = 0
+    adults = 0
+    elderly = 0
+    for record in records:
+        if len(record[5])>0:
+            age = float (record[5])
+
+            if age < 18:
+                children += 1
+            elif age < 65:
+                adults += 1
+            else:
+                elderly +=1
+
+    print(f"children: {children}, adults: {adults}, elderly: {elderly}")
+
+
+

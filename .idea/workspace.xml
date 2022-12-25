@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="300b0c62-492b-46b8-b5e3-a5da9f59e30d" name="Changes" comment="Titanic task 4 done">
+    <list default="true" id="300b0c62-492b-46b8-b5e3-a5da9f59e30d" name="Changes" comment="Titanic task 5 done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TitanicCaseStudy.py" beforeDir="false" afterPath="$PROJECT_DIR$/TitanicCaseStudy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +196,7 @@
       <workItem from="1667655929998" duration="12356000" />
       <workItem from="1668946623510" duration="629000" />
       <workItem from="1669936658481" duration="3146000" />
-      <workItem from="1671057895817" duration="35275000" />
+      <workItem from="1671057895817" duration="40202000" />
     </task>
     <task id="LOCAL-00001" summary="add titanic.csv">
       <created>1671827523234</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671848796385</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Titanic task 5 done">
+      <created>1671849238085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671849238085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +309,8 @@
     <MESSAGE value="Titanic task 2 done" />
     <MESSAGE value="Titanic task 3 done" />
     <MESSAGE value="Titanic task 4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Titanic task 4 done" />
+    <MESSAGE value="Titanic task 5 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Titanic task 5 done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$ascii.coverage" NAME="ascii Coverage Results" MODIFIED="1671203333917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -318,6 +327,6 @@
     <SUITE FILE_PATH="coverage/Python$book.coverage" NAME="book Coverage Results" MODIFIED="1667761358286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$addListNumbers.coverage" NAME="addListNumbers Coverage Results" MODIFIED="1669939419757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$printtask.coverage" NAME="printtask Coverage Results" MODIFIED="1671827779828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$TitanicCaseStudy.coverage" NAME="TitanicCaseStudy Coverage Results" MODIFIED="1671849206589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$TitanicCaseStudy.coverage" NAME="TitanicCaseStudy Coverage Results" MODIFIED="1671981558098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
