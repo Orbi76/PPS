@@ -25,6 +25,7 @@ print("[1] Display the names of all passengers")
 print("[2] Display the number of passengers that survived")
 print("[3] Display the number of passengers per gender")
 print("[4] Display the number of passengers per age group")
+print("[5] Display the number of survivors per age group")
 response = int(input())
 print(f"You have selected option: {response} ")
 
@@ -78,5 +79,34 @@ if (response == 4):
 
     print(f"children: {children}, adults: {adults}, elderly: {elderly}")
 
+if (response == 5):
+
+    children = 0
+    survivedChildren = 0
+    adults = 0
+    survivedAdult = 0
+    elderly = 0
+    survivedElderly = 0
+
+    for record in records:
+        if len(record[5]) > 0:
+            age = float(record[5])
+            survival_status = record[1]
+
+            if age < 18:
+                children += 1
+                if (survival_status =="1"):
+                    survivedChildren +=1
+
+            elif age < 65:
+                adults += 1
+                if (survival_status == "1"):
+                    survivedAdult += 1
+            else:
+                elderly += 1
+                if (survival_status == "1"):
+                    survivedElderly += 1
 
 
+
+    print(f"children:{survivedChildren}/{children}, adults: {survivedAdult}/{adults}, elderly: {survivedElderly}/{elderly}")
